@@ -1,0 +1,107 @@
+/* App.css */
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+}
+
+.todo-list {
+  max-width: 550px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.todo-list h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.todo-list button {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: 15px;
+  transition: background 0.2s ease;
+}
+
+.todo-list > button {
+  background-color: #0d6efd;
+  color: #fff;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.todo-list > button:hover {
+  background-color: #0b5ed7;
+}
+
+.todo-list form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.todo-list input[type="text"] {
+  padding: 10px;
+  font-size: 14px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  width: 70%;
+}
+
+.todo-list form button {
+  background-color: #198754;
+  color: white;
+}
+
+.todo-list form button:hover {
+  background-color: #157347;
+}
+
+.todo-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  background-color: #f8f9fa;
+  margin-bottom: 10px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.2s ease;
+}
+
+.todo-list li:hover {
+  background-color: #e9ecef;
+}
+
+.todo-list li button {
+  background-color: transparent;
+  color: #dc3545;
+  font-size: 16px;
+}
+
+.todo-list li button:hover {
+  color: #b02a37;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  color: #555;
+}
